@@ -18,3 +18,7 @@ Unit tests run on Vitest with React Testing Library in a jsdom environment. Test
 - `npm run test:watch` – re-run on change
 - `npm run test:coverage` – run with a v8 coverage report (90% threshold across statements, branches, functions, and lines)
 - `npm run typecheck` – TypeScript check with no emit
+
+## Deployment
+
+The site is a fully static Next.js export (`output: 'export'`) published to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`. The workflow sets `NEXT_PUBLIC_BASE_PATH` to the repo name so assets and links resolve under the project sub-path; a local `npm run build` leaves `basePath` empty and serves from the root.
