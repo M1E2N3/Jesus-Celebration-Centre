@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jesus Celebration Centre logo">
+  <defs>
+    <linearGradient id="jccLogoGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E63946"/>
+      <stop offset="1" stop-color="#8B0000"/>
+    </linearGradient>
+    <filter id="jccGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="#161B22" stroke="url(#jccLogoGrad)" stroke-width="1.5"/>
+  <g filter="url(#jccGlow)">
+    <rect x="21.2" y="12" width="5.6" height="24" rx="2.4" fill="url(#jccLogoGrad)"/>
+    <rect x="14" y="19.2" width="20" height="5.6" rx="2.4" fill="url(#jccLogoGrad)"/>
+  </g>
+  <circle cx="24" cy="24" r="18" stroke="url(#jccLogoGrad)" stroke-opacity="0.25" stroke-width="1"/>
+</svg>
